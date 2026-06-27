@@ -9,7 +9,7 @@ services:
       - key: ENV
         value: production
       - key: FRONTEND_URL
-        sync: false
+        value: https://khoatdwork.github.io/personal-finance-portal
       - key: GOOGLE_SHEETS_SPREADSHEET_ID
         sync: false
       - key: GOOGLE_SHEETS_CREDENTIALS_JSON
